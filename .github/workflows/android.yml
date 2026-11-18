@@ -1,0 +1,52 @@
+
+name: Gerar APK MedFocus 2027
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Baixar projeto
+        uses: actions/checkout@v4
+
+      - name: Configurar Java
+        uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Instalar dependências
+        working-directory: MedFocus2027-projeto
+        run: npm install
+
+      - name: Compilar projeto
+        working-directory: MedFocus2027-projeto
+        run: npm run build
+
+      - name: Preparar Android
+        working-directory: MedFocus2027
+        run: |
+          npx cap add android
+          npx cap sync android
+
+      - name: Gerar APK
+        working-directory: MedFocus2027/android
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleDebug
+
+      - name: Disponibilizar APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: MedFocus2027-APK
+          path: MedFocus2027/android/app/build/outputs/apk/debug/app-debug.apk
