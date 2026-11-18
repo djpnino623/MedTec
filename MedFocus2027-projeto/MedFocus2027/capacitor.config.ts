@@ -1,0 +1,1 @@
+import type {CapacitorConfig} from '@capacitor/cli';const config:CapacitorConfig={appId:'com.medfocus.app',appName:'MedFocus 2027',webDir:'dist'};export default config;

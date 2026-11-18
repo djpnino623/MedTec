@@ -1,0 +1,368 @@
+{
+  "subjects": [
+    "Matemática",
+    "Biologia",
+    "Química",
+    "Física",
+    "Português",
+    "Literatura",
+    "Inglês",
+    "Espanhol",
+    "História",
+    "Geografia",
+    "Filosofia",
+    "Sociologia",
+    "Artes",
+    "Educação Física",
+    "Redação"
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "subject": "Matemática",
+      "title": "Porcentagem e descontos",
+      "body": "Porcentagem é uma razão cujo denominador é 100. Para calcular p% de um valor, multiplique o valor por p/100. Em descontos, subtraia a quantia descontada do preço inicial.",
+      "example": "25% de R$ 80 = 0,25 × 80 = R$ 20. Preço final: R$ 60.",
+      "summary": "Taxa percentual ÷ 100 × valor. Desconto = preço inicial − desconto.",
+      "objective": "Compreender os conceitos centrais de porcentagem e descontos e aplicá-los em situações contextualizadas."
+    },
+    {
+      "id": "L02",
+      "subject": "Biologia",
+      "title": "Organelas celulares",
+      "body": "A célula eucariótica possui estruturas com funções específicas. Mitocôndrias participam da respiração celular e da produção de ATP; ribossomos sintetizam proteínas; núcleo armazena a maior parte do DNA.",
+      "example": "Células musculares, que consomem muita energia, costumam apresentar muitas mitocôndrias.",
+      "summary": "Mitocôndria: respiração/ATP. Ribossomo: proteínas. Núcleo: DNA.",
+      "objective": "Compreender os conceitos centrais de organelas celulares e aplicá-los em situações contextualizadas."
+    },
+    {
+      "id": "L03",
+      "subject": "Química",
+      "title": "Elementos e símbolos químicos",
+      "body": "Cada elemento químico possui símbolo internacional. A primeira letra é maiúscula; a segunda, quando existe, é minúscula. Alguns símbolos derivam do latim.",
+      "example": "Ferro: Fe (ferrum); sódio: Na (natrium); potássio: K (kalium).",
+      "summary": "Símbolos químicos são padronizados; diferencie maiúsculas e minúsculas.",
+      "objective": "Compreender os conceitos centrais de elementos e símbolos químicos e aplicá-los em situações contextualizadas."
+    },
+    {
+      "id": "L04",
+      "subject": "Física",
+      "title": "Velocidade média",
+      "body": "Em um percurso simples, a velocidade escalar média é a distância total dividida pelo tempo total: v = Δs/Δt. Unidades comuns: m/s e km/h.",
+      "example": "120 km em 3 h: 120 ÷ 3 = 40 km/h.",
+      "summary": "Velocidade média = distância total ÷ tempo total.",
+      "objective": "Compreender os conceitos centrais de velocidade média e aplicá-los em situações contextualizadas."
+    },
+    {
+      "id": "L05",
+      "subject": "Português",
+      "title": "Conectivos e concessão",
+      "body": "Conectivos estabelecem relações lógicas entre partes do texto. Embora, ainda que e mesmo que introduzem concessão: uma ressalva que não impede a ideia principal.",
+      "example": "“Embora estivesse cansada, continuou estudando.” O cansaço não impediu a ação.",
+      "summary": "Embora = concessão; portanto = conclusão; porque = causa/explicação.",
+      "objective": "Compreender os conceitos centrais de conectivos e concessão e aplicá-los em situações contextualizadas."
+    },
+    {
+      "id": "L06",
+      "subject": "Literatura",
+      "title": "Gêneros literários",
+      "body": "Os gêneros lírico, narrativo e dramático são formas tradicionais de organização literária. O lírico enfatiza subjetividade; o narrativo apresenta acontecimentos; o dramático é construído para representação.",
+      "example": "Um poema centrado em sentimentos tende ao gênero lírico; uma peça teatral, ao dramático.",
+      "summary": "Observe voz, estrutura, foco e finalidade do texto.",
+      "objective": "Compreender os conceitos centrais de gêneros literários e aplicá-los em situações contextualizadas."
+    },
+    {
+      "id": "L07",
+      "subject": "Inglês",
+      "title": "Skimming e scanning",
+      "body": "Skimming é leitura rápida para captar a ideia geral. Scanning é busca direcionada por informação específica, como uma data, nome ou número.",
+      "example": "Ao procurar o horário de um evento, faça scanning; para entender o tema de um artigo, skimming.",
+      "summary": "Skimming: ideia geral. Scanning: dado específico.",
+      "objective": "Compreender os conceitos centrais de skimming e scanning e aplicá-los em situações contextualizadas."
+    },
+    {
+      "id": "L08",
+      "subject": "Espanhol",
+      "title": "Falsos cognatos",
+      "body": "Palavras parecidas em português e espanhol podem ter significados diferentes. O contexto é essencial para evitar traduções automáticas equivocadas.",
+      "example": "“Embarazada” significa grávida, não embaraçada.",
+      "summary": "Desconfie de palavras muito parecidas; confirme pelo contexto.",
+      "objective": "Compreender os conceitos centrais de falsos cognatos e aplicá-los em situações contextualizadas."
+    },
+    {
+      "id": "L09",
+      "subject": "História",
+      "title": "Revolução Industrial",
+      "body": "A Revolução Industrial começou na Inglaterra no século XVIII e transformou produção, trabalho, urbanização e relações sociais. A mecanização ampliou a produção e alterou a organização do trabalho.",
+      "example": "A fábrica mecanizada concentrou trabalhadores e máquinas, ampliando a produção em escala.",
+      "summary": "Relacione tecnologia, trabalho, urbanização e transformações sociais.",
+      "objective": "Compreender os conceitos centrais de revolução industrial e aplicá-los em situações contextualizadas."
+    },
+    {
+      "id": "L10",
+      "subject": "Geografia",
+      "title": "Escalas cartográficas",
+      "body": "A escala relaciona a distância representada no mapa à distância real. Na escala numérica 1:100.000, 1 cm no mapa corresponde a 100.000 cm no terreno.",
+      "example": "1 cm em um mapa 1:100.000 representa 1 km na realidade.",
+      "summary": "Converta unidades antes de comparar distâncias.",
+      "objective": "Compreender os conceitos centrais de escalas cartográficas e aplicá-los em situações contextualizadas."
+    },
+    {
+      "id": "L11",
+      "subject": "Filosofia",
+      "title": "Mito e filosofia",
+      "body": "O pensamento filosófico grego desenvolveu explicações argumentativas e racionais sobre o mundo, sem que isso signifique o desaparecimento imediato dos mitos.",
+      "example": "Uma explicação filosófica busca razões discutíveis e argumentos, não apenas uma narrativa tradicional.",
+      "summary": "Compare formas de explicar e justificar ideias.",
+      "objective": "Compreender os conceitos centrais de mito e filosofia e aplicá-los em situações contextualizadas."
+    },
+    {
+      "id": "L12",
+      "subject": "Sociologia",
+      "title": "Socialização",
+      "body": "Socialização é o processo pelo qual pessoas aprendem normas, valores, linguagens e práticas sociais. Família, escola, grupos e meios de comunicação participam desse processo.",
+      "example": "A escola transmite conhecimentos e também regras de convivência e expectativas sociais.",
+      "summary": "A socialização conecta indivíduo, instituições e cultura.",
+      "objective": "Compreender os conceitos centrais de socialização e aplicá-los em situações contextualizadas."
+    },
+    {
+      "id": "L13",
+      "subject": "Artes",
+      "title": "Elementos da linguagem visual",
+      "body": "Ponto, linha, forma, cor, textura, espaço e composição são elementos que ajudam a analisar imagens. O sentido depende também do contexto histórico e cultural.",
+      "example": "Linhas diagonais podem sugerir movimento; cores contrastantes podem destacar elementos.",
+      "summary": "Analise elementos visuais e contexto, evitando interpretações isoladas.",
+      "objective": "Compreender os conceitos centrais de elementos da linguagem visual e aplicá-los em situações contextualizadas."
+    },
+    {
+      "id": "L14",
+      "subject": "Educação Física",
+      "title": "Atividade física e saúde",
+      "body": "Atividade física envolve movimentos corporais que aumentam o gasto energético. Exercício físico é uma prática planejada e estruturada. Saúde envolve dimensões físicas, mentais e sociais.",
+      "example": "Caminhar para deslocar-se é atividade física; uma caminhada com plano de treino pode ser exercício.",
+      "summary": "Diferencie atividade física, exercício e esporte; considere saúde integral.",
+      "objective": "Compreender os conceitos centrais de atividade física e saúde e aplicá-los em situações contextualizadas."
+    },
+    {
+      "id": "L15",
+      "subject": "Redação",
+      "title": "Projeto de texto dissertativo-argumentativo",
+      "body": "A redação do ENEM exige defesa de um ponto de vista sobre tema social, com argumentos, coesão e proposta de intervenção que respeite os direitos humanos. Planeje tese, argumentos e conclusão.",
+      "example": "Introdução apresenta tema e tese; desenvolvimento sustenta argumentos; conclusão propõe intervenção detalhada.",
+      "summary": "Planeje tese, repertório pertinente, progressão argumentativa e intervenção.",
+      "objective": "Compreender os conceitos centrais de projeto de texto dissertativo-argumentativo e aplicá-los em situações contextualizadas."
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q01",
+      "subject": "Matemática",
+      "topic": "Porcentagem e descontos",
+      "prompt": "Uma mochila custa R$ 80 e recebe desconto de 25%. Qual é o preço final?",
+      "options": [
+        "R$ 20",
+        "R$ 55",
+        "R$ 60",
+        "R$ 65"
+      ],
+      "answer": 2,
+      "explanation": "25% de 80 é 20; 80 − 20 = 60."
+    },
+    {
+      "id": "Q02",
+      "subject": "Biologia",
+      "topic": "Organelas celulares",
+      "prompt": "Qual organela participa diretamente da respiração celular e produção de ATP?",
+      "options": [
+        "Ribossomo",
+        "Mitocôndria",
+        "Lisossomo",
+        "Complexo golgiense"
+      ],
+      "answer": 1,
+      "explanation": "A mitocôndria participa da respiração celular."
+    },
+    {
+      "id": "Q03",
+      "subject": "Química",
+      "topic": "Elementos e símbolos químicos",
+      "prompt": "Qual é o símbolo químico do ferro?",
+      "options": [
+        "F",
+        "Fe",
+        "Fr",
+        "Ir"
+      ],
+      "answer": 1,
+      "explanation": "O símbolo do ferro é Fe."
+    },
+    {
+      "id": "Q04",
+      "subject": "Física",
+      "topic": "Velocidade média",
+      "prompt": "Um ônibus percorre 120 km em 3 horas. Qual a velocidade média?",
+      "options": [
+        "30 km/h",
+        "40 km/h",
+        "60 km/h",
+        "360 km/h"
+      ],
+      "answer": 1,
+      "explanation": "120 ÷ 3 = 40 km/h."
+    },
+    {
+      "id": "Q05",
+      "subject": "Português",
+      "topic": "Conectivos e concessão",
+      "prompt": "Na frase “Embora estivesse cansada, continuou estudando”, “embora” indica:",
+      "options": [
+        "Conclusão",
+        "Causa",
+        "Concessão",
+        "Adição"
+      ],
+      "answer": 2,
+      "explanation": "“Embora” introduz uma concessão."
+    },
+    {
+      "id": "Q06",
+      "subject": "Literatura",
+      "topic": "Gêneros literários",
+      "prompt": "Qual gênero literário tradicionalmente enfatiza a expressão subjetiva de sentimentos?",
+      "options": [
+        "Lírico",
+        "Épico",
+        "Dramático",
+        "Didático"
+      ],
+      "answer": 0,
+      "explanation": "O gênero lírico enfatiza subjetividade e expressão de sentimentos."
+    },
+    {
+      "id": "Q07",
+      "subject": "Inglês",
+      "topic": "Skimming e scanning",
+      "prompt": "A estratégia de leitura chamada scanning é usada principalmente para:",
+      "options": [
+        "Traduzir cada palavra",
+        "Buscar uma informação específica",
+        "Ler em voz alta",
+        "Identificar rimas"
+      ],
+      "answer": 1,
+      "explanation": "Scanning é busca direcionada por informação específica."
+    },
+    {
+      "id": "Q08",
+      "subject": "Espanhol",
+      "topic": "Falsos cognatos",
+      "prompt": "Em espanhol, “embarazada” significa:",
+      "options": [
+        "Envergonhada",
+        "Grávida",
+        "Atrapalhada",
+        "Empolgada"
+      ],
+      "answer": 1,
+      "explanation": "É um falso cognato: significa grávida."
+    },
+    {
+      "id": "Q09",
+      "subject": "História",
+      "topic": "Revolução Industrial",
+      "prompt": "A Revolução Industrial teve início, no século XVIII, principalmente na:",
+      "options": [
+        "França",
+        "Inglaterra",
+        "Rússia",
+        "Espanha"
+      ],
+      "answer": 1,
+      "explanation": "A industrialização pioneira ocorreu na Inglaterra."
+    },
+    {
+      "id": "Q10",
+      "subject": "Geografia",
+      "topic": "Escalas cartográficas",
+      "prompt": "Na escala 1:100.000, 1 cm no mapa representa:",
+      "options": [
+        "100 m",
+        "1 km",
+        "10 km",
+        "100 km"
+      ],
+      "answer": 1,
+      "explanation": "100.000 cm equivalem a 1 km."
+    },
+    {
+      "id": "Q11",
+      "subject": "Filosofia",
+      "topic": "Mito e filosofia",
+      "prompt": "Uma característica central da argumentação filosófica é:",
+      "options": [
+        "Aceitar tradição sem questionar",
+        "Apresentar razões e argumentos",
+        "Evitar perguntas",
+        "Basear-se apenas em autoridade"
+      ],
+      "answer": 1,
+      "explanation": "A filosofia trabalha com questionamento, razões e argumentos."
+    },
+    {
+      "id": "Q12",
+      "subject": "Sociologia",
+      "topic": "Socialização",
+      "prompt": "O processo de aprendizagem de normas e valores sociais chama-se:",
+      "options": [
+        "Socialização",
+        "Globalização",
+        "Industrialização",
+        "Urbanização"
+      ],
+      "answer": 0,
+      "explanation": "Socialização é a aprendizagem de normas, valores e práticas sociais."
+    },
+    {
+      "id": "Q13",
+      "subject": "Artes",
+      "topic": "Elementos da linguagem visual",
+      "prompt": "Qual opção reúne elementos da linguagem visual?",
+      "options": [
+        "Ponto, linha, cor e forma",
+        "Tese, antítese e síntese",
+        "Sujeito, verbo e objeto",
+        "Massa, força e aceleração"
+      ],
+      "answer": 0,
+      "explanation": "Ponto, linha, cor e forma são elementos visuais."
+    },
+    {
+      "id": "Q14",
+      "subject": "Educação Física",
+      "topic": "Atividade física e saúde",
+      "prompt": "Qual alternativa diferencia melhor exercício físico de atividade física?",
+      "options": [
+        "São sinônimos exatos",
+        "Exercício é planejado e estruturado",
+        "Atividade física nunca melhora saúde",
+        "Exercício não envolve movimento"
+      ],
+      "answer": 1,
+      "explanation": "Exercício físico é atividade planejada, estruturada e repetitiva."
+    },
+    {
+      "id": "Q15",
+      "subject": "Redação",
+      "topic": "Projeto de texto dissertativo-argumentativo",
+      "prompt": "Na redação do ENEM, a proposta de intervenção deve:",
+      "options": [
+        "Desrespeitar direitos humanos",
+        "Ser desconectada do tema",
+        "Apresentar ação relacionada ao problema e respeitar direitos humanos",
+        "Substituir toda a argumentação"
+      ],
+      "answer": 2,
+      "explanation": "A intervenção deve dialogar com o problema e respeitar os direitos humanos."
+    }
+  ]
+}
